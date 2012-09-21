@@ -237,7 +237,11 @@ public class JsarMojo extends AbstractMojo {
 			File compiledDirectory = JsarRelativeLocations
 					.getOutputLocation(getFrameworkTargetDirectory());
 
-			archiver.getArchiver().addDirectory(compiledDirectory);
+			  DefaultFileSet fs= new DefaultFileSet();
+            fs.setDirectory(compiledDirectory);
+            fs.setExcludes(getExcludes());
+            archiver.getArchiver().addFileSet(fs);
+
 
 			// add manifest
 			File existingManifest = getDefaultManifestFile();
