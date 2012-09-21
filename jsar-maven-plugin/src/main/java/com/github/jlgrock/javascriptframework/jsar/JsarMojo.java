@@ -12,6 +12,7 @@ import org.apache.maven.project.MavenProject;
 import org.apache.maven.project.MavenProjectHelper;
 
 import com.github.jlgrock.javascriptframework.mavenutils.mavenobjects.JsarRelativeLocations;
+import org.codehaus.plexus.archiver.util.DefaultFileSet;
 
 /**
  * Build a JSAR package from the current project.
