@@ -45,9 +45,9 @@
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/jlgrock/JavascriptFramework/issues</url>
+		<url>https://github.com/dmackenzie1/JavascriptFramework/issues</url>
 	</issueManagement>
-	<url>https://github.com/jlgrock/JavascriptFramework</url>
+	<url>https://github.com/dmackenzie1/JavascriptFramework</url>
 	<name>Maven Utils</name>
 	<description>Although this is technically not a plugin, this is a bunch of tools that all of the plugins use. This is very useful for anyone doing maven plugin development.</description>
 </project>

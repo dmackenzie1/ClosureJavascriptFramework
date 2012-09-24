@@ -8,7 +8,7 @@
 	<artifactId>closure-testing-library</artifactId>
 	<packaging>jar</packaging>
 	<name>Closure Testing Library</name>
-	<url>https://github.com/jlgrock/JavascriptFramework</url>
+	<url>https://github.com/dmackenzie1/JavascriptFramework</url>
 	<description>For use with the google closure testing mojos</description>
 
 	<dependencies>

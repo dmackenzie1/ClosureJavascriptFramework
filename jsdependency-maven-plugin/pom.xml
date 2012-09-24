@@ -39,9 +39,9 @@
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/jlgrock/JavascriptFramework/issues</url>
+		<url>https://github.com/dmackenzie1/JavascriptFramework/issues</url>
 	</issueManagement>
 	<description>The plugin that can reference archives created using the jsar plugin and use them as test dependencies or source code for inclusion in the compiling/minification</description>
-	<url>https://github.com/jlgrock/JavascriptFramework</url>
+	<url>https://github.com/dmackenzie1/JavascriptFramework</url>
 	<name>JS Dependency Plugin</name>
 </project>

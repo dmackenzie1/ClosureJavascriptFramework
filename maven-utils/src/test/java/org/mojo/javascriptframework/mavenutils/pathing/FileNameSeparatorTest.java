@@ -6,7 +6,7 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import com.github.jlgrock.javascriptframework.mavenutils.pathing.FileNameSeparator;
+import com.github.dmackenzie1.javascriptframework.mavenutils.pathing.FileNameSeparator;
 
 public class FileNameSeparatorTest {
 

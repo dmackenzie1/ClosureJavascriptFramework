@@ -1,4 +1,4 @@
-package com.github.jlgrock.javascriptframework.jspreprocessor;
+package com.github.dmackenzie1.javascriptframework.jspreprocessor;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

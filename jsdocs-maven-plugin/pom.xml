@@ -9,7 +9,7 @@
 	<packaging>maven-plugin</packaging>
 	<name>JavaScript Framework</name>
 	<description>A direct port of thethe jsdocs plugin for maven</description>
-	<url>https://github.com/jlgrock/JavascriptFramework</url>
+	<url>https://github.com/dmackenzie1/JavascriptFramework</url>
 	<properties>
 		<doxia.version>1.1</doxia.version>
 	</properties>
@@ -183,7 +183,7 @@
 	</build>
 
 	<issueManagement>
-		<url>https://github.com/jlgrock/JavascriptFramework/issues</url>
+		<url>https://github.com/dmackenzie1/JavascriptFramework/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 

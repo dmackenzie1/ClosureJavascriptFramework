@@ -7,21 +7,21 @@
 			</implementation>
 			<configuration>
 				<phases>
-					<generate-sources>com.github.jlgrock.javascript-framework:jsdependency-maven-plugin:js-dependency
+					<generate-sources>com.github.dmackenzie1.javascript-framework:jsdependency-maven-plugin:js-dependency
 					</generate-sources>
 					<process-resources>org.apache.maven.plugins:maven-resources-plugin:resources
 					</process-resources>
 					<process-test-resources>org.apache.maven.plugins:maven-resources-plugin:testResources
 					</process-test-resources>
-					<compile>com.github.jlgrock.javascript-framework:jspreprocessor-maven-plugin:compile-preprocessors
+					<compile>com.github.dmackenzie1.javascript-framework:jspreprocessor-maven-plugin:compile-preprocessors
 					</compile>
-					<generate-test-sources>com.github.jlgrock.javascript-framework:jsdependency-maven-plugin:js-test-dependency
+					<generate-test-sources>com.github.dmackenzie1.javascript-framework:jsdependency-maven-plugin:js-test-dependency
 					</generate-test-sources>
-					<test>com.github.jlgrock.javascript-framework:closure-testing-maven-plugin:js-closure-test
+					<test>com.github.dmackenzie1.javascript-framework:closure-testing-maven-plugin:js-closure-test
 					</test>
-					<process-classes>com.github.jlgrock.javascript-framework:closure-compiler-maven-plugin:js-closure-compile
+					<process-classes>com.github.dmackenzie1.javascript-framework:closure-compiler-maven-plugin:js-closure-compile
 					</process-classes>
-					<package>com.github.jlgrock.javascript-framework:jsar-maven-plugin:jsar
+					<package>com.github.dmackenzie1.javascript-framework:jsar-maven-plugin:jsar
 					</package>
 					<install>org.apache.maven.plugins:maven-install-plugin:install
 					</install>
@@ -40,27 +40,27 @@
 			</implementation>
 			<configuration>
 				<phases>
-					<generate-sources>com.github.jlgrock.javascript-framework:jsdependency-maven-plugin:js-dependency
+					<generate-sources>com.github.dmackenzie1.javascript-framework:jsdependency-maven-plugin:js-dependency
 					</generate-sources>
 					<process-resources>org.apache.maven.plugins:maven-resources-plugin:resources
 					</process-resources>
 					<process-test-resources>org.apache.maven.plugins:maven-resources-plugin:testResources
 					</process-test-resources>
 					<compile>
-						com.github.jlgrock.javascript-framework:jspreprocessor-maven-plugin:compile-preprocessors,
+						com.github.dmackenzie1.javascript-framework:jspreprocessor-maven-plugin:compile-preprocessors,
 						org.apache.maven.plugins:maven-compiler-plugin:compile
 					</compile>
 					<test-compile>org.apache.maven.plugins:maven-compiler-plugin:testCompile
 					</test-compile>
-					<generate-test-sources>com.github.jlgrock.javascript-framework:jsdependency-maven-plugin:js-test-dependency
+					<generate-test-sources>com.github.dmackenzie1.javascript-framework:jsdependency-maven-plugin:js-test-dependency
 					</generate-test-sources>
 					<test>
 						org.apache.maven.plugins:maven-surefire-plugin:test,
-						com.github.jlgrock.javascript-framework:closure-testing-maven-plugin:js-closure-test
+						com.github.dmackenzie1.javascript-framework:closure-testing-maven-plugin:js-closure-test
 					</test>
-					<process-classes>com.github.jlgrock.javascript-framework:closure-compiler-maven-plugin:js-closure-compile
+					<process-classes>com.github.dmackenzie1.javascript-framework:closure-compiler-maven-plugin:js-closure-compile
 					</process-classes>
-					<prepare-package>com.github.jlgrock.javascript-framework:jsar-maven-plugin:war-move
+					<prepare-package>com.github.dmackenzie1.javascript-framework:jsar-maven-plugin:war-move
 					</prepare-package>
 					<package>org.apache.maven.plugins:maven-war-plugin:war</package>
 					<install>org.apache.maven.plugins:maven-install-plugin:install
@@ -89,7 +89,7 @@
 			<role>org.codehaus.plexus.archiver.UnArchiver</role>
 			<role-hint>javascript</role-hint>
 			<implementation>
-				com.github.jlgrock.javascriptframework.jsar.JavascriptUnArchiver
+				com.github.dmackenzie1.javascriptframework.jsar.JavascriptUnArchiver
 			</implementation>
 			<description>
 				Custom archiver for javascript dependencies, packaged as "jsar"
@@ -103,7 +103,7 @@
 			<role>org.codehaus.plexus.archiver.Archiver</role>
 			<role-hint>javascript</role-hint>
 			<implementation>
-				com.github.jlgrock.javascriptframework.jsar.JavascriptArchiver
+				com.github.dmackenzie1.javascriptframework.jsar.JavascriptArchiver
 			</implementation>
 			<instantiation-strategy>per-lookup</instantiation-strategy>
 			<description>

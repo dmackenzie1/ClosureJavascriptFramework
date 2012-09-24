@@ -53,9 +53,9 @@
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/jlgrock/JavascriptFramework/issues</url>
+		<url>https://github.com/dmackenzie1/JavascriptFramework/issues</url>
 	</issueManagement>
-	<url>https://github.com/jlgrock/JavascriptFramework</url>
+	<url>https://github.com/dmackenzie1/JavascriptFramework</url>
 	<name>jsar Maven Plugin</name>
 	<description>The plugin that creates an archive out of your source and compiled files</description>
 </project>

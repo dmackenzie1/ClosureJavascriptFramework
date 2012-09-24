@@ -96,10 +96,10 @@
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/jlgrock/JavascriptFramework/issues</url>
+		<url>https://github.com/dmackenzie1/JavascriptFramework/issues</url>
 	</issueManagement>
 	<name>Source Overlay Maven Plugin</name>
-	<url>https://github.com/jlgrock/JavascriptFramework</url>
+	<url>https://github.com/dmackenzie1/JavascriptFramework</url>
 	<description>A plugin that is used to overlay an entire source directory over another, replacing any files that are duplicated. This is similar to the War Overlay functionality provided by the Mave War Plugin, with the exception that this will do it for the entire source directory rather than just the webapp directory.</description>
 
 </project>

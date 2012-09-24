@@ -8,7 +8,7 @@
 	<artifactId>closure-compiler-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
 	<name>Closure Compiler Maven Plugin</name>
-	<url>https://github.com/jlgrock/JavascriptFramework</url>
+	<url>https://github.com/dmackenzie1/JavascriptFramework</url>
 	<description>The plugin that will create a debug version and run the Google Closure Compiler on the source code to create a heavily minified file.</description>
 	<properties>
 		<closure-compiler.version>rr2079.1</closure-compiler.version>
